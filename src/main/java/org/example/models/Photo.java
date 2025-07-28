@@ -63,5 +63,16 @@ public class Photo {
     public void setTags(Set<String> tags) {
         this.tags = tags;
     }
+
+    @Override
+    public String toString() {
+        return "Photo{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", date=" + date +
+                ", location=" + location +
+                ", tags=" + tags +
+                '}';
+    }
 }
 
